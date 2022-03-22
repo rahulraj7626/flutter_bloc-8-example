@@ -3,14 +3,14 @@ import 'package:bloc_example/common_widget/textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class CounterScreen extends StatefulWidget {
-  const CounterScreen({Key? key}) : super(key: key);
+class ListingScreen extends StatefulWidget {
+  const ListingScreen({Key? key}) : super(key: key);
 
   @override
-  State<CounterScreen> createState() => _CounterScreenState();
+  State<ListingScreen> createState() => _ListingScreenState();
 }
 
-class _CounterScreenState extends State<CounterScreen> {
+class _ListingScreenState extends State<ListingScreen> {
   TextEditingController controller = TextEditingController();
 
   final _formKey = GlobalKey<FormState>();
