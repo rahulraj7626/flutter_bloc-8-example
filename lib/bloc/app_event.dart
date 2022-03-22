@@ -11,7 +11,6 @@ class AddItem extends AppEvent {
 
 class RemoveIndex extends AppEvent {
   final int indx;
-
   RemoveIndex({required this.indx});
 }
 
